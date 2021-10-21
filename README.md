@@ -41,3 +41,5 @@ Simple authentication and Doctrine ORM project
 <a href="https://prnt.sc/1wxxong"><img src="https://prnt.sc/1wxxong" width="180" alt="img_login"/></a>
 
 <a href="https://prnt.sc/1wxxl6b"><img src="https://prnt.sc/1wxxl6b" width="180" alt="img_user_list"/></a>
+
+<a href="https://selenium.dev"><img src="https://selenium.dev/images/selenium_logo_square_green.png" width="180" alt="Selenium"/></a>
