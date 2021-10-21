@@ -38,8 +38,6 @@ Simple authentication and Doctrine ORM project
 ### Furniture és Modell létrehozása
 	make:entity
 	
-<a href="https://prnt.sc/1wxxong"><img src="https://prnt.sc/1wxxong" width="180" alt="img_login"/></a>
+<a href="https://prnt.sc/1wxxong"><img src="https://image.prntscr.com/image/pILrRBWxSB6hOvD_cXsiyw.png" width="180" alt="img_login"/></a>
 
-<a href="https://prnt.sc/1wxxl6b"><img src="https://prnt.sc/1wxxl6b" width="180" alt="img_user_list"/></a>
-
-<a href="https://selenium.dev"><img src="https://selenium.dev/images/selenium_logo_square_green.png" width="180" alt="Selenium"/></a>
+<a href="https://prnt.sc/1wxxl6b"><img src="https://image.prntscr.com/image/7F-3wh9TSNSVkE1Wp9gaSw.png" width="180" alt="img_user_list"/></a>
