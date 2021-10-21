@@ -1,23 +1,23 @@
 # sym-security-orm
 Simple authentication and Doctrine ORM project
 
-#Ezeket használtam:
+### Ezeket használtam:
 
-Authentikációs User entitások, pass hash db-be
+###### Authentikációs User entitások, pass hash db-be
 	make:user
 
-.env-ben a mysql connetion string alapján kerülnek le a táblák.
+### .env-ben a mysql connetion string alapján kerülnek le a táblák.
 	doctrine:database:create
 	make:migration
 	doctrine:migrations:migrate
 
 
-Minta adatok a AppFixtures class-ban 
+### Minta adatok a AppFixtures class-ban 
 	composer require orm-fixtures --dev
 	Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle::class => ['dev' => true, 'test' => true],
 	doctrine:fixtures:load
 
-Végpontok létrehozása dekralált Entity alapján 
+### Végpontok létrehozása dekralált Entity alapján 
 	make:crud
 		created: src/Controller/UserController.php
 		created: src/Form/UserType.php
@@ -28,12 +28,12 @@ Végpontok létrehozása dekralált Entity alapján
 		created: templates/user/new.html.twig
 		created: templates/user/show.html.twig
 
-php bin\console 
+### Login funkció
 	make:auth
 		created: src/Security/LoignFormAuthenticator.php
 		updated: config/packages/security.yaml
 		created: src/Controller/SecurityController.php
 		created: templates/security/login.html.twig
 
-Furniture és Modell létrehozása
-php bin\console make:entity
+### Furniture és Modell létrehozása
+	make:entity
