@@ -37,3 +37,5 @@ Simple authentication and Doctrine ORM project
 
 ### Furniture és Modell létrehozása
 	make:entity
+	
+	[!image](https://github.githubassets.com/images/modules/site/actions/pr-checks-final.png)
