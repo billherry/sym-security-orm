@@ -38,4 +38,4 @@ Simple authentication and Doctrine ORM project
 ### Furniture és Modell létrehozása
 	make:entity
 	
-	![Test Image 4](https://github.com/tograh/testrepository/3DTest.png 1.5k)
+	![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
